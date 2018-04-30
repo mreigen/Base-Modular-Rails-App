@@ -1,7 +1,7 @@
 PATH
   remote: engines/core
   specs:
-    core (0.1.0)
+    boilerplate-core (0.1.0)
       rails (~> 5.1.6)
 
 GEM
@@ -128,8 +128,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  boilerplate-core!
   byebug
-  core!
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
   rails (~> 5.1.6)
